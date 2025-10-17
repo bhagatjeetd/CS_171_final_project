@@ -1,6 +1,8 @@
 # CS_171_final_project
 Project Title
+
 Authors: Bhagatjeet Dhillon and 
+
 Description of Question and Research Topic (5 Sentences)
 
 
