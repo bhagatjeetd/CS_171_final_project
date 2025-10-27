@@ -13,21 +13,21 @@ Our project investigates how individual player actions and team event patterns i
 
 **bhagatjeetd** - https://www.kaggle.com/datasets/davidcariboo/player-scores
 
-**HetavVyas**
-**Dataset**: Soccer Match Event Dataset (https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset)
-**Tasks**: Load and preprocess CSV files for matches, events, and players; handle missing values and normalize categorical columns.
-**Focus**: Build match-level feature sets — passes per minute, possession ratios, total shots, defensive actions — to create predictive inputs for outcome models.
-**Tools**: Python (Pandas, NumPy), Matplotlib/Seaborn, Scikit-learn.
+**HetavVyas**<br>
+Dataset: Soccer Match Event Dataset (https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset)
+Tasks: Load and preprocess CSV files for matches, events, and players; handle missing values and normalize categorical columns.
+Focus: Build match-level feature sets — passes per minute, possession ratios, total shots, defensive actions — to create predictive inputs for outcome models.
+Tools: Python (Pandas, NumPy), Matplotlib/Seaborn, Scikit-learn.
 
 **Model Plans (two parts, one for each author)**
 
 **bhagatjeetd** - Multiple Linear Regression
 
-**Hetav (Event Dataset):**  
-**Goal:** Predict match result (Win/Draw/Loss) from in-game event data.  
-**Models:** Logistic Regression, Random Forest, and Multi-Layer Perceptron.  
-**Evaluation:** Accuracy, Precision-Recall, and Confusion Matrix on test data.  
-**Visualization:** Event-type influence (e.g., shots vs. passes vs. fouls) on match outcomes.  
+**Hetav (Event Dataset):**<br>
+Goal: Predict match result (Win/Draw/Loss) from in-game event data.  
+Models: Logistic Regression, Random Forest, and Multi-Layer Perceptron.  
+Evaluation: Accuracy, Precision-Recall, and Confusion Matrix on test data.  
+Visualization: Event-type influence (e.g., shots vs. passes vs. fouls) on match outcomes.  
 
 **Project Timeline**
 We plan to clean and preprocess our datasets, build and train our models, and then analyze and visualize the results, finishing with our presentation in Week 16. Each week will focus on a key stage-data prep, modeling, evaluation, and final reporting.
