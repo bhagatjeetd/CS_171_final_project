@@ -23,11 +23,11 @@ Tools: Python (Pandas, NumPy), Matplotlib/Seaborn, Scikit-learn.
 
 **bhagatjeetd** - Multiple Linear Regression
 
-**Hetav (Event Dataset):**
-Goal: Predict match result (Win/Draw/Loss) from in-game event data.
-Models: Logistic Regression, Random Forest, and Multi-Layer Perceptron.
-Evaluation: Accuracy, Precision-Recall, and Confusion Matrix on test data.
-Visualization: Event-type influence (e.g., shots vs. passes vs. fouls) on match outcomes.
+**Hetav (Event Dataset):**  
+**Goal:** Predict match result (Win/Draw/Loss) from in-game event data.  
+**Models:** Logistic Regression, Random Forest, and Multi-Layer Perceptron.  
+**Evaluation:** Accuracy, Precision-Recall, and Confusion Matrix on test data.  
+**Visualization:** Event-type influence (e.g., shots vs. passes vs. fouls) on match outcomes.  
 
 **Project Timeline**
 We plan to clean and preprocess our datasets, build and train our models, and then analyze and visualize the results, finishing with our presentation in Week 16. Each week will focus on a key stage-data prep, modeling, evaluation, and final reporting.
