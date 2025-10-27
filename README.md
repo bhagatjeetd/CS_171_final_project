@@ -14,9 +14,9 @@ Our project investigates how individual player actions and team event patterns i
 **bhagatjeetd** - https://www.kaggle.com/datasets/davidcariboo/player-scores
 
 **HetavVyas**<br>
-Dataset: Soccer Match Event Dataset (https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset)
-Tasks: Load and preprocess CSV files for matches, events, and players; handle missing values and normalize categorical columns.
-Focus: Build match-level feature sets — passes per minute, possession ratios, total shots, defensive actions — to create predictive inputs for outcome models.
+Dataset: Soccer Match Event Dataset (https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset)<br>
+Tasks: Load and preprocess CSV files for matches, events, and players; handle missing values and normalize categorical columns.<br>
+Focus: Build match-level feature sets — passes per minute, possession ratios, total shots, defensive actions — to create predictive inputs for outcome models.<br>
 Tools: Python (Pandas, NumPy), Matplotlib/Seaborn, Scikit-learn.
 
 **Model Plans (two parts, one for each author)**
@@ -24,9 +24,9 @@ Tools: Python (Pandas, NumPy), Matplotlib/Seaborn, Scikit-learn.
 **bhagatjeetd** - Multiple Linear Regression
 
 **Hetav (Event Dataset):**<br>
-Goal: Predict match result (Win/Draw/Loss) from in-game event data.  
-Models: Logistic Regression, Random Forest, and Multi-Layer Perceptron.  
-Evaluation: Accuracy, Precision-Recall, and Confusion Matrix on test data.  
+Goal: Predict match result (Win/Draw/Loss) from in-game event data.  <br>
+Models: Logistic Regression, Random Forest, and Multi-Layer Perceptron.  <br>
+Evaluation: Accuracy, Precision-Recall, and Confusion Matrix on test data.  <br>
 Visualization: Event-type influence (e.g., shots vs. passes vs. fouls) on match outcomes.  
 
 **Project Timeline**
