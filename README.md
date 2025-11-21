@@ -17,7 +17,11 @@ Our project investigates how individual player actions and team event patterns i
 
 **Data Collection Plan (two parts, one for each author)**
 
-**bhagatjeetd** - https://www.kaggle.com/datasets/davidcariboo/player-scores
+**bhagatjeetd** 
+Dataset: Football Data from Transfermarkt (https://www.kaggle.com/datasets/davidcariboo/player-scores).  
+Tasks: Load and preprocess players, appearances, club_games, game_events, and player_valuations; build per-player career stats and per-90 event-rate features; merge with latest market values.  
+Focus: Create player-level feature sets and targets for predicting log market value.  
+Tools: Python (Pandas, NumPy), PyTorch, Matplotlib.
 
 **HetavVyas**<br>
 Dataset: Soccer Match Event Dataset (https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset)<br>
@@ -27,7 +31,10 @@ Tools: Python (Pandas, NumPy), Matplotlib/Seaborn, Scikit-learn.
 
 **Model Plans (two parts, one for each author)**
 
-**bhagatjeetd** - Multiple Linear Regression
+**bhagatjeetd**
+Model: Feedforward Neural Network (MLP) regression implemented in PyTorch, with a simple constant value baseline for comparison.  
+Evaluation: MSE and RMSE (in log space and euros) on a held out test set.  
+Visualization: True vs predicted market values and feature correlations with log market value.
 
 **Hetav (Event Dataset):**<br>
 Goal: Predict match result (Win/Draw/Loss) from in-game event data.  <br>
