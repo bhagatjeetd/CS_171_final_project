@@ -38,7 +38,7 @@ Visualization: True vs predicted market values and feature correlations with log
 
 **Hetav (Event Dataset):**<br>
 Goal: Predict match result (Win/Draw/Loss) from in-game event data.  <br>
-Models: Logistic Regression, Random Forest, and Multi-Layer Perceptron.  <br>
+Models: Random Forest classifier, and Multi-Layer Perceptron.  <br>
 Evaluation: Accuracy, Precision-Recall, and Confusion Matrix on test data.  <br>
 Visualization: Event-type influence (e.g., shots vs. passes vs. fouls) on match outcomes.  
 
